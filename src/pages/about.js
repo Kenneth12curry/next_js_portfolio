@@ -37,13 +37,13 @@ const about= () =>{
                             <p className='font-small'>
                                 Hello, I&apos;m Kenneth Benedict, a young Web developer and Full Stack developer passionate about the 
                                 field of computer science and application development. With my recent degree in computer 
-                                science, I'm always on the lookout for new and innovative ways to bring my clients' visions to 
+                                science, I&apos;m always on the lookout for new and innovative ways to bring my clients' visions to 
                                 life.
                             </p>
 
                             <p className='my-4 font-medium'>
                                 Whether I&apos;m working on a website, a web application, or any other digital solution, I bring my 
-                                commitment to product excellence and user-centered thinking to every project I work on. I'm 
+                                commitment to product excellence and user-centered thinking to every project I work on. I&apos;m 
                                 looking forward to the opportunity to bring my skills and passion to your next project.
                             </p>
 
