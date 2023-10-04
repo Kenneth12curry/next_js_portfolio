@@ -115,11 +115,11 @@ const articles= () =>{
                         <li>
                             <FeaturedArticle 
                                 title='FORM VALIDATION IN REACTJS: BUILD A REUSABLE CUSTOM HOOK FOR INPUTS AND ERROR HANDLING'
-                                summary='Form📝 handling is an essential part of any website. Since Forms takes the important 
+                                summary="Form📝 handling is an essential part of any website. Since Forms takes the important 
                                 information from the user. We must create robust form component which can 
-                                handle inputs and it’s validation🚦 easily. Here, we’re going to create a simple React Hook⚓ 
-                                to handle form as well as it’s validation.'
-                                link='https://devdreaming.com/blogs/react-form-validation-custom-hook'
+                                handle inputs and it&apos;s validation🚦 easily. Here, we&apos;re going to create a simple React Hook⚓ 
+                                to handle form as well as it&apos;s validation."
+                                link="https://devdreaming.com/blogs/react-form-validation-custom-hook"
                                 img={featuredImage}
                                 time="Updated on January 27, 2023"     
                             />
@@ -127,14 +127,14 @@ const articles= () =>{
                         <li>
                             <FeaturedArticle 
                                 title="REDUX SIMPLIFIED: A BEGINNER'S GUIDE FOR WEB DEVELOPERS"
-                                summary='In this post you will learn the simple concept behid the Redux in simpler terms so make 
+                                summary="In this post you will learn the simple concept behid the Redux in simpler terms so make 
                                 sure to read the whole article. If you prefer to watch video then here it is else you can keep 
-                                reading 😄!. 
-                                 Let’s say as a root component you have App.js file in your project, and in the component 
+                                reading 😄!&apos;. 
+                                 Let&apos;s say as a root component you have App.js file in your project, and in the component 
                                 tree, the first layer contains 3 components 
                                 and in the 2nd layer 
-                                there are two child component.'
-                                link='https://devdreaming.com/blogs/redux-simply-explained'
+                                there are two child component."
+                                link="https://devdreaming.com/blogs/redux-simply-explained"
                                 img={featuredImage1}
                                 time="Updated on January 27, 2023"     
                             />
