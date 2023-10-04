@@ -26,7 +26,7 @@ const about= () =>{
                 {/* Appel du composant Layout */}
                 <Layout>
                      {/* Appel du composant AnimatedText */}
-                     <AnimatedText text='Passion Fuels Purpose!'className='mt-0 mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8' />
+                     <AnimatedText text='Passion Fuels Purpose!&apos;' className='mt-0 mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8' />
 
                      <div className='grid w-full grid-cols-8 gap-16 sm:gap-8'>
 
@@ -35,14 +35,14 @@ const about= () =>{
                             <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>Biography</h2>
 
                             <p className='font-small'>
-                                Hello, I'm Kenneth Benedict, a young Web developer and Full Stack developer passionate about the 
+                                Hello, I&apos;m Kenneth Benedict, a young Web developer and Full Stack developer passionate about the 
                                 field of computer science and application development. With my recent degree in computer 
                                 science, I'm always on the lookout for new and innovative ways to bring my clients' visions to 
                                 life.
                             </p>
 
                             <p className='my-4 font-medium'>
-                                Whether I'm working on a website, a web application, or any other digital solution, I bring my 
+                                Whether I&apos;m working on a website, a web application, or any other digital solution, I bring my 
                                 commitment to product excellence and user-centered thinking to every project I work on. I'm 
                                 looking forward to the opportunity to bring my skills and passion to your next project.
                             </p>

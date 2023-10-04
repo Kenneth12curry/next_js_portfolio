@@ -55,7 +55,7 @@ const Experience= () => {
             
                 <Details poste='Intern in Python Development' company="Peex'IT Group" companyLink='https://peexitgroup.com/'
                 time='Août 2022 - Septembre 2022' address='Dakar, Sénégal' 
-                work="During my Python development internship at Peex'it Group, I actively contributed to the 
+                work="During my Python development internship at Peex&apos;it Group, I actively contributed to the 
                 design and development of a task management application. This application allows users 
                 to create, modify, and delete individual tasks, as well as view a list of their existing tasks.My 
                 role was focused on implementing key features, optimizing the code, and resolving technical 
@@ -63,11 +63,11 @@ const Experience= () => {
 
                 <Details poste='UI Design intern' company="Peex'IT Group" companyLink='https://peexitgroup.com/'
                 time='Août 2022 - Septembre 2022' address='Dakar, Sénégal' 
-                work="I had the opportunity to complete an internship in UI Design at Peex'iT Group, focusing on the creation of responsive user interfaces."/>
+                work="I had the opportunity to complete an internship in UI Design at Peex&apos;iT Group, focusing on the creation of responsive user interfaces."/>
 
                 <Details poste='UI Design intern' company="Peex'IT Group" companyLink='https://peexitgroup.com/'
                 time='Août 2022 - Septembre 2022' address='Dakar, Sénégal' 
-                work="I had the opportunity to complete an internship in UI Design at Peex'iT Group, focusing on the creation of responsive user interfaces."/>
+                work="I had the opportunity to complete an internship in UI Design at Peex&apos;iT Group, focusing on the creation of responsive user interfaces."/>
                 
             </ul>
         </div>

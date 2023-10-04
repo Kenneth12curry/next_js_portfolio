@@ -45,7 +45,7 @@ export default function Home() {
                     xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl'/>
 
                     <p className='my-4 text-base font-medium md:text-sm sm:text-xs'>
-                      As a junior full-stack developer, I'm dedicated to turning ideas into innovative web applications.
+                      As a junior full-stack developer, I&apos;m dedicated to turning ideas into innovative web applications.
                       Explore my latest projects, showcasing my skills and passion for the IT field.
                     </p>
 
