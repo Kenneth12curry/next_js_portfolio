@@ -37,7 +37,7 @@ const about= () =>{
                             <p className='font-small'>
                                 Hello, I&apos;m Kenneth Benedict, a young Web developer and Full Stack developer passionate about the 
                                 field of computer science and application development. With my recent degree in computer 
-                                science, I&apos;m always on the lookout for new and innovative ways to bring my clients' visions to 
+                                science, I&apos;m always on the lookout for new and innovative ways to bring my clients visions to 
                                 life.
                             </p>
 
@@ -61,7 +61,7 @@ const about= () =>{
 
                             <div className='flex flex-col items-end justify-center xl:items-center'>
                                 <span className='inline-block text-2xl font-bold md:text-xl sm:text-xl xs:text-xl'>
-                                    <AnimatedAbout text="Passionate about" className=''/>
+                                    <AnimatedAbout text="Passionate about" />
                                 </span>
                                 <h2 className='text-x1 font-medium capitalize text-dark/75 dark:text-light/75
                                 xl:text-center md:text-lg sm:text-base xs:text-sm'>technology and innovation</h2>
@@ -69,7 +69,7 @@ const about= () =>{
 
                             <div className='flex flex-col items-end justify-center xl:items-center' >
                                 <span className='inline-block text-2xl font-bold md:text-xl sm:text-xl xs:text-xl'>
-                                    <AnimatedAbout text="ready to take on" className=''/>
+                                    <AnimatedAbout text="ready to take on"/>
                                 </span>
                                 <h2 className='text-x1 font-medium capitalize text-dark/75 dark:text-light/75
                                  xl:text-center md:text-lg sm:text-base xs:text-sm'>new challenges</h2>
@@ -77,7 +77,7 @@ const about= () =>{
 
                             <div className='flex flex-col items-end justify-center xl:items-center'>
                                 <span className='inline-block text-2xl font-bold md:text-xl sm:text-xl xs:text-xl'>
-                                    <AnimatedAbout text="Ambitious and seeking" className=''/>
+                                    <AnimatedAbout text="Ambitious and seeking"/>
                                 </span>
                                 <h2 className='text-x1  font-medium capitalize text-dark/75 dark:text-light/75
                                  xl:text-center md:text-lg sm:text-base xs:text-sm'>knowledge and opportunities</h2>
