@@ -94,9 +94,6 @@ export const LinkArrow = ({ className, ...rest }) => (
       <path
         fill="none"
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        strokeWidth={2}
         d="M11 7H6a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2-2v-5m-7 1L20 4m-5 0h5v5"
       />
     </svg>
@@ -274,6 +271,9 @@ export const SunIcon = ({ className, ...rest }) => (
     <g
       fill="none"
       stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="2"
     >
       <g strokeDasharray="2">
         <path d="M12 21v1M21 12h1M12 3v-1M3 12h-1">
@@ -450,6 +450,10 @@ export const MoonIcon = ({ className, ...rest }) => (
     <g
       fill="none"
       stroke="currentColor"
+      strokeDasharray="2"
+      strokeDashoffset="2"
+      strokeLinecap="round"
+      strokeWidth="2"
     >
       <path d="M0 0">
         <animate
