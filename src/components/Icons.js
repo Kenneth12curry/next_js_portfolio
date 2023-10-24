@@ -599,10 +599,22 @@ export const SunIcon = ({ className, ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 24 24"
+    width="16"  // Définissez une nouvelle valeur de largeur ici (par exemple, 16)
+    height="16" // Définissez une nouvelle valeur de hauteur ici (par exemple, 16)
     {...rest}
-    className={`${className}`}
+    className={`w-full ${className}`}
   >
     <circle cx="12" cy="12" r="6" fill="currentColor" />
+    <circle
+      cx="12"
+      cy="12"
+      r="12"
+      fill="none"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="2"
+    />
     <path
       fill="currentColor"
       d="M7 6 C7 12.08 11.92 17 18 17 C18.53 17 19.05 16.96 19.56 16.89 C17.95 19.36 15.17 21 12 21 C7.03 21 3 16.97 3 12 C3 8.83 4.64 6.05 7.11 4.44 C7.04 4.95 7 5.47 7 6 Z"
@@ -615,8 +627,10 @@ export const MoonIcon = ({ className, ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 24 24"
+    width="16"  // Définissez une nouvelle valeur de largeur ici (par exemple, 16)
+    height="16" // Définissez une nouvelle valeur de hauteur ici (par exemple, 16)
     {...rest}
-    className={`${className}`}
+    className={`w-full ${className}`}
   >
     <circle cx="12" cy="12" r="10" fill="currentColor" />
     <circle
