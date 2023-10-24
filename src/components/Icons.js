@@ -602,7 +602,7 @@ export const SunIcon = ({ className, ...rest }) => (
     {...rest}
     className={`w-full h-auto ${className}`}
   >
-    <circle cx="12" cy="12" r="6" fill="currentColor" />
+    <circle cx="8" cy="8" r="6" fill="currentColor" />
     <circle
       cx="12"
       cy="12"
@@ -628,7 +628,7 @@ export const MoonIcon = ({ className, ...rest }) => (
     {...rest}
     className={`w-full h-auto ${className}`}
   >
-    <circle cx="12" cy="12" r="10" fill="currentColor" />
+    <circle cx="8" cy="8" r="6" fill="currentColor" />
     <circle
       cx="12"
       cy="12"
