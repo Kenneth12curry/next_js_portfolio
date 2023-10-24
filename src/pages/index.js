@@ -64,7 +64,7 @@ export default function Home() {
                         </a>
 
                         <a href="mailto:adjeteken@gmail.com" target={"_blank"} className='ml-4 text-lg font-medium capitalize 
-                        text-dark underline dark:text-light md:text-base '>contact</a>
+                        text-dark underline dark:text-light md:text-base'>contact</a>
                     </div>
 
                 </div>
