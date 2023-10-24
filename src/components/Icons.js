@@ -602,7 +602,7 @@ export const SunIcon = ({ className, ...rest }) => (
     width="16"  // Définissez une nouvelle valeur de largeur ici (par exemple, 16)
     height="16" // Définissez une nouvelle valeur de hauteur ici (par exemple, 16)
     {...rest}
-    className={`w-16 h-16 ${className}`}
+    className={`w-10 h-10 ${className}`}
   >
     <circle cx="12" cy="12" r="6" fill="currentColor" />
     <circle
@@ -628,7 +628,7 @@ export const MoonIcon = ({ className, ...rest }) => (
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 24 24"
     {...rest}
-    className={`w-16 h-16 ${className}`}
+    className={`w-10 h-10 ${className}`}
   >
     <circle cx="12" cy="12" r="10" fill="currentColor" />
     <circle
