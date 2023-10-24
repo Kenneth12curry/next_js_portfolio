@@ -60,7 +60,7 @@ export default function Home() {
                           dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light  hover:dark:border-light
                           md:p-2 md:px-4 md:text-base' 
 
-                          download={true} id="mood">Resume <LinkArrow className={"ml-1"} />
+                          download={true} id="mood">Resume <LinkArrow className={"font-bold ml-1"} />
                         </a>
 
                         <a href="mailto:adjeteken@gmail.com" target={"_blank"} className='ml-4 text-lg font-medium capitalize 
