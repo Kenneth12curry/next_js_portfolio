@@ -608,9 +608,6 @@ export const SunIcon = ({ className, ...rest }) => (
       r="12"
       fill="none"
       stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="2"
     />
     <path
       fill="currentColor"
@@ -634,10 +631,7 @@ export const MoonIcon = ({ className, ...rest }) => (
       r="12"
       fill="none"
       stroke="currentColor"
-      strokeDasharray="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="2"
+    
     >
       <animateTransform
         attributeName="transform"
