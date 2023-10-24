@@ -274,9 +274,6 @@ export const SunIcon = ({ className, ...rest }) => (
     <g
       fill="none"
       stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="2"
     >
       <g strokeDasharray="2">
         <path d="M12 21v1M21 12h1M12 3v-1M3 12h-1">
@@ -453,10 +450,6 @@ export const MoonIcon = ({ className, ...rest }) => (
     <g
       fill="none"
       stroke="currentColor"
-      strokeDasharray="2"
-      strokeDashoffset="2"
-      strokeLinecap="round"
-      strokeWidth="2"
     >
       <path d="M0 0">
         <animate
