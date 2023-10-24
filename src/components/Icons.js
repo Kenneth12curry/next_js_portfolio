@@ -599,8 +599,6 @@ export const SunIcon = ({ className, ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 24 24"
-    width="16"
-    height="16"
     {...rest}
     className={`w-full h-auto ${className}`}
   >
@@ -627,8 +625,6 @@ export const MoonIcon = ({ className, ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 24 24"
-    width="16"
-    height="16"
     {...rest}
     className={`w-full h-auto ${className}`}
   >
