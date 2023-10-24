@@ -594,6 +594,7 @@ export const CircularText = ({ className, ...rest }) => (
   </svg>
 ); */
 
+
 export const SunIcon = ({ className, ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -601,7 +602,7 @@ export const SunIcon = ({ className, ...rest }) => (
     width="16"  // Définissez une nouvelle valeur de largeur ici (par exemple, 16)
     height="16" // Définissez une nouvelle valeur de hauteur ici (par exemple, 16)
     {...rest}
-    className={`w-full h-auto ${className}`}
+    className={` ${className}`}
   >
     <circle cx="12" cy="12" r="6" fill="currentColor" />
     <circle
@@ -629,7 +630,7 @@ export const MoonIcon = ({ className, ...rest }) => (
     width="16"  // Définissez une nouvelle valeur de largeur ici (par exemple, 16)
     height="16" // Définissez une nouvelle valeur de hauteur ici (par exemple, 16)
     {...rest}
-    className={`w-full h-auto ${className}`}
+    className={` ${className}`}
   >
     <circle cx="12" cy="12" r="10" fill="currentColor" />
     <circle
