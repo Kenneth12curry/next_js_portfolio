@@ -271,7 +271,6 @@ export const SunIcon = ({ className, ...rest }) => (
     {...rest}
     className={`w-full h-auto ${className}`}
   >
-  <rect x="0" y="0" width="12" height="12" fill="rgba(255, 255, 255, 0)" />
     <g
       fill="none"
       stroke="currentColor"
