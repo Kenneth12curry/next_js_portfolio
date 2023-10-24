@@ -267,10 +267,11 @@ export const SunIcon = ({ className, ...rest }) => (
     xmlns="http://www.w3.org/2000/svg"
     width="1em"
     height="1em"
-    //viewBox="0 0 24 24"
+    viewBox="0 0 12 12"
     {...rest}
     className={`w-full h-auto ${className}`}
   >
+  <rect x="0" y="0" width="12" height="12" fill="rgba(255, 255, 255, 0)" />
     <g
       fill="none"
       stroke="currentColor"
@@ -445,11 +446,11 @@ export const MoonIcon = ({ className, ...rest }) => (
     xmlns="http://www.w3.org/2000/svg"
     width="1em"
     height="1em"
-    //viewBox="0 0 24 24"
+    viewBox="0 0 12 12"
     {...rest}
     className={`w-full h-auto ${className}`}
   >
-    <rect x="0" y="0" width="24" height="24" fill="rgba(255, 255, 255, 0)" />
+    <rect x="0" y="0" width="12" height="12" fill="rgba(255, 255, 255, 0)" />
     <g
       fill="none"
       stroke="currentColor"
