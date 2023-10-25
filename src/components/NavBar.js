@@ -113,7 +113,7 @@ const NavBar= () =>{
                                 {/* Appel des 3 composants GithubIcon, LinkedInIcon, InstagramIcon */}
                                 <motion.a href='https://github.com/Kenneth12curry' target={"_blank"} className='w-6 mr-3 bg-light rounded-full dark:bg-dark sm:mx-1' whileHover={{y:-2}} whileTap={{scale:0.9}}><GithubIcon /></motion.a>
                                 <motion.a href='www.linkedin.com/in/kenneth-adjete' target={"_blank"} className='w-6 ml-3 sm:mx-1' whileHover={{y:-2}} whileTap={{scale:0.9}}><LinkedInIcon /></motion.a>
-                                <motion.a href='www.linkedin.com/in/kenneth-adjete' target={"_blank"} className='w-6 ml-3 sm:mx-1' whileHover={{y:-2}} whileTap={{scale:0.9}}><InstagramIcon /></motion.a>
+                                <motion.a href='https://twitter.com' target={"_blank"} className='w-6 ml-3 sm:mx-1' whileHover={{y:-2}} whileTap={{scale:0.9}}><InstagramIcon /></motion.a>
 
                                 <button onClick={() => setMode(mode === "light" ? "dark" : "light")} 
                                 className={`ml-4 flex items-center justify-center rounded-full p-1 ${mode === 'light' ? 'bg-dark text-light' : 'bg-light text-dark'}`}>
