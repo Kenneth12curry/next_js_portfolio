@@ -81,7 +81,7 @@ const NavBar= () =>{
                 <nav className='flex items-center justify-center flex-wrap'>
                     {/* Appel des 3 composants GithubIcon, LinkedInIcon, InstagramIcon */}
                     <motion.a href='https://github.com/Kenneth12curry' target={"_blank"} className='w-6 mr-3' whileHover={{y:-2}} whileTap={{scale:0.9}}><GithubIcon /></motion.a>
-                    <motion.a href='www.linkedin.com/in/kenneth-adjete' target={"_blank"} className='w-6' whileHover={{y:-2}} whileTap={{scale:0.9}}><LinkedInIcon /></motion.a>
+                    <motion.a href='"https://www.linkedin.com/in/kenneth-adjete/' target={"_blank"} className='w-6' whileHover={{y:-2}} whileTap={{scale:0.9}}><LinkedInIcon /></motion.a>
                     <motion.a href='https://twitter.com' target={"_blank"} className='w-6 ml-2' whileHover={{y:-2}} whileTap={{scale:0.9}}><InstagramIcon /></motion.a>
 
                     <button onClick={() => setMode(mode === "light" ? "dark" : "light")} 
