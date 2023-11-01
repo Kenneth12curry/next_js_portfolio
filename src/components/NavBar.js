@@ -116,7 +116,7 @@ const NavBar= () =>{
                                 <motion.a  href='https://twitter.com'  className='w-6 ml-2 sm:mx-1' whileHover={{y:-2}} whileTap={{scale:0.9}}><InstagramIcon /></motion.a>
 
                                 <button onClick={() => setMode(mode === "light" ? "dark" : "light")} 
-                                className={`ml-4 flex items-center justify-center rounded-full p-1 ${mode === 'light' ? 'bg-dark text-light' : 'bg-light text-dark'}`}>
+                                className={`ml-2 flex items-center justify-center rounded-full p-1 ${mode === 'light' ? 'bg-dark text-light' : 'bg-light text-dark'}`}>
                                 {
                                     mode === "dark" ?
                                     <SunIcon  className={"fill-dark"}/>
