@@ -10,6 +10,9 @@ import { GithubIcon } from '@/components/Icons'
 import project1 from "../../public/images/projects/burger2.jpg" // Importation d'une image sous la forme d'une variable nommé project1
 import projectBrasil from "../../public/images/projects/brasil.png"
 import projectBrasilBurger from "../../public/images/projects/brasil_burger.png"
+import project_garage from "../../public/images/projects/garage.png"
+import project_garage1 from "../../public/images/projects/project_garage.png"
+import project_garage2 from "../../public/images/projects/project_garage3.png"
 import { motion } from 'framer-motion'
 import TransitionEffect from '@/components/TransitionEffect'
 
@@ -140,15 +143,13 @@ const projects= () =>{
                         <div className='col-span-12'>
 
                             <FeaturedProject 
-                                title='Order Management Application for a Restaurant (Brasil Burger)'
-                                img={project1}
-                                summary=' A feature-rich order management application was developed as part of an academic project, 
-                                utilizing Symfony and Bootstrap frameworks. It provides detailed information about burgers, 
-                                menus, and add-ons. Additionally, it allows customers to place orders for burgers or menus. 
-                                Other key features include creating an account, logging in as either a manager or a customer, browsing the catalog of burgers and menus, and accessing order history as 
-                                a customer.'
-                                link="/"
-                                github='/'
+                                title='The Projet Car Garage'
+                                img={project_garage}
+                                summary='It is a web application that highlights the V.Parrot garage, 
+                                which offers various services including automobile repair, ... 
+                                In addition, the V. Parrot Garage offers used vehicles for sale'
+                                link="https://garagev-parrot-003d68411d2e.herokuapp.com/home"
+                                github='https://github.com/Kenneth12curry/garage_v_parrot'
                                 type='Featured Project'
                             />
                         </div>
@@ -156,10 +157,10 @@ const projects= () =>{
                         <div className='col-span-6 sm:col-span-12'>
 
                             <Project 
-                                title='Order Management Application'
-                                img={projectBrasilBurger}
-                                link="/"
-                                github='/'
+                                title='The Projet Car Garage'
+                                img={project_garage1}
+                                link="https://garagev-parrot-003d68411d2e.herokuapp.com/home"
+                                github='https://github.com/Kenneth12curry/garage_v_parrot'
                                 type='Project'
                             />
                         </div>
@@ -167,10 +168,10 @@ const projects= () =>{
                         <div className='col-span-6 sm:col-span-12'>
 
                             <Project 
-                                title='Order Management Application'
-                                img={projectBrasilBurger}
-                                link="/"
-                                github='/'
+                                title='The Projet Car Garage'
+                                img={project_garage2}
+                                link="https://garagev-parrot-003d68411d2e.herokuapp.com/home"
+                                github='https://github.com/Kenneth12curry/garage_v_parrot'
                                 type='Project'
                             />
                         </div>
