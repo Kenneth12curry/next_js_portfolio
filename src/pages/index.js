@@ -52,7 +52,7 @@ export default function Home() {
                     <div className='flex items-center self-start mt-2 lg:self-center'>
 
                         {/* l'attribut download présent dans une balise a permet le téléchargement direct d'un fichier en format pdf */}
-                        <a href="https://cvdesignr.com/p/631bae0f2456f" target={"_blank"} className='
+                        <a href="/CV.pdf" target={"_blank"} className='
                           flex items-center bg-dark text-light
                           p-2.5 px-6 rounded-lg text-lg font-semibold
                           hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark 
@@ -60,7 +60,7 @@ export default function Home() {
                           dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light  hover:dark:border-light
                           md:p-2 md:px-4 md:text-base' 
 
-                          download={true} id="mood">Resume <LinkArrow className={"font-bold ml-1"} />
+                          download={true} id="mood">Downlaod CV <LinkArrow className={"font-bold ml-1"} />
                         </a>
 
                         <a href="mailto:adjeteken@gmail.com" target={"_blank"} className='ml-4 text-lg font-medium capitalize 
